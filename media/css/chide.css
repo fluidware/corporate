@@ -1,0 +1,108 @@
+html {
+	background-color: #DBE0E3;
+	line-height: 30px;
+	font-family: Ubuntu, 'Segoe UI', Helvetica, Arial, sans-serif;
+	background-image: -moz-radial-gradient(center center , ellipse closest-side, #F2F8FF, #BED0E0 100%);
+	background-image: -webkit-radial-gradient(center center , ellipse closest-side, #F2F8FF, #BED0E0 100%);
+	background-image: -o-radial-gradient(center center , ellipse closest-side, #F2F8FF, #BED0E0 100%);
+	background-image: -ms-radial-gradient(center center , ellipse closest-side, #F2F8FF, #BED0E0 100%);
+	background-image: radial-gradient(center center , ellipse closest-side, #F2F8FF, #BED0E0 100%);
+	background-attachment: fixed;
+	height: 100%;
+}
+
+h1 {
+    font-size: 72px;
+    line-height: 150px;
+    text-align: center;
+    font-family: 'Lobster Two', Georgia, cursive;
+    text-shadow: 2px 2px 2px #888888;
+}
+
+h2 {
+    font-size: 32px;
+    font-family: Georgia, cursive;
+    line-height: 40px;
+    letter-spacing: -1px;
+}
+
+a {
+	color: #044478;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#chide {
+	text-align: center;
+}
+
+.motto {
+    color: #044478;
+    font-weight: bold;
+}
+
+.wrap {
+	margin: 30px auto;
+	width: 1000px;
+}
+
+.wrap .info {
+	margin-top: 40px;
+	text-shadow: 1px 1px 0 #fff;
+	font-size: 18px;
+	line-height: 32px;
+}
+
+#about h1 {
+	font-size: 40px;
+	line-height: 40px;
+	text-align: left;
+}
+
+#about .bio {
+    background-color: #fff;
+    float: left;
+    padding: 20px;
+    width: 450px;
+    height: 300px;
+    line-height: 20px;
+    margin: 5px;
+    box-shadow: 2px 2px 2px #555;
+}
+
+#about .left {
+	width: 150px;
+	float: left;
+}
+
+#about .left .mugshot {
+	width: 150px;
+}
+
+#about .right {
+	width: 280px;
+	float: right;
+}
+
+#about .bio .title {
+	font-size: 16px;
+    font-family: Georgia, cursive;
+    line-height: 16px;
+    letter-spacing: -1px;
+    color: #555;
+}
+
+#about .bio .description {
+	padding: 10px 0;
+	font-size: 14px;
+}
+
+#footer {
+	font-size: 12px;
+	line-height: 20px;
+	margin-top: 100px;
+	text-align: center;	
+}
