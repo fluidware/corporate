@@ -2,7 +2,7 @@ Router = Backbone.Router.extend({
 	routes: {
 		'!/': 'frontpage',
 		'!/about/': 'about',
-		'!/content/': 'content'
+		'!/contact/': 'contact'
 	},
 	
 	frontpage: function() {

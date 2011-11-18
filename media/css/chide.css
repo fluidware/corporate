@@ -2,32 +2,51 @@ html {
 	background-color: #DBE0E3;
 	line-height: 30px;
 	font-family: Ubuntu, 'Segoe UI', Helvetica, Arial, sans-serif;
-	background-image: -moz-radial-gradient(center center , ellipse closest-side, #F2F8FF, #BED0E0 100%);
+	/*background-image: -moz-radial-gradient(center center , ellipse closest-side, #F2F8FF, #BED0E0 100%);
 	background-image: -webkit-radial-gradient(center center , ellipse closest-side, #F2F8FF, #BED0E0 100%);
 	background-image: -o-radial-gradient(center center , ellipse closest-side, #F2F8FF, #BED0E0 100%);
 	background-image: -ms-radial-gradient(center center , ellipse closest-side, #F2F8FF, #BED0E0 100%);
 	background-image: radial-gradient(center center , ellipse closest-side, #F2F8FF, #BED0E0 100%);
-	background-attachment: fixed;
+	background-attachment: fixed;*/
+	background: #555 url(/media/img/bg.png);
 	height: 100%;
+	color: #eee;
 }
 
 h1 {
     font-size: 72px;
-    line-height: 150px;
-    text-align: center;
-    font-family: 'Lobster Two', Georgia, cursive;
-    text-shadow: 2px 2px 2px #888888;
+    line-height: 70px;
+    margin-top: 120px;
+    font-family: 'Myriad Pro Light', 'Comfortaa', 'Segoe UI', Helvetica, Arial, sans-serif;
+    text-shadow: 1px 1px 0px #000;
+    color: #eee;
+    letter-spacing: -2px;
 }
 
 h2 {
     font-size: 32px;
     font-family: Georgia, cursive;
     line-height: 40px;
+    color: #111;
     letter-spacing: -1px;
 }
 
+h3 {
+    font-size: 36px;
+    line-height: 70px;
+    margin: 20px 0;
+    font-family: 'Myriad Pro Light', 'Comfortaa', 'Segoe UI', Helvetica, Arial, sans-serif;
+    text-shadow: 1px 1px 0px #000;
+    color: #eee;
+    letter-spacing: -2px;
+}
+
+p {
+	margin: 15px 0;
+}
+
 a {
-	color: #044478;
+	color: #5D8FB8;
 	text-decoration: none;
 }
 
@@ -35,25 +54,27 @@ a:hover {
 	text-decoration: underline;
 }
 
-#chide {
-	text-align: center;
-}
-
 .motto {
-    color: #044478;
+    color: #A2CCE0;
     font-weight: bold;
 }
 
 .wrap {
 	margin: 30px auto;
-	width: 1000px;
+	width: 800px;
 }
 
-.wrap .info {
+#chide .wrap .info {
 	margin-top: 40px;
-	text-shadow: 1px 1px 0 #fff;
+	text-shadow: 1px 1px 0 #000;
 	font-size: 18px;
 	line-height: 32px;
+	width: 800px;
+}
+
+#about .wrap {
+	margin: 30px auto;
+	width: 1000px;
 }
 
 #about h1 {
@@ -61,7 +82,6 @@ a:hover {
 	line-height: 40px;
 	text-align: left;
 	margin: 10px;
-	color: #000;
 }
 
 #about .bio {
@@ -73,6 +93,7 @@ a:hover {
     line-height: 20px;
     margin: 5px;
     box-shadow: 2px 2px 2px #555;
+    color: #111;
 }
 
 #about .left {
@@ -108,9 +129,32 @@ a:hover {
 	font-size: 14px;
 }
 
+#contact table.contact {
+	width: 500px;
+	margin: 20px;
+}
+
+#contact table.contact tr:nth-child(odd) {
+	background-color: #333;
+}
+
+#contact table.contact tr:nth-child(even) {
+	background-color: #444;
+}
+
+#contact table.contact td {
+	padding: 15px;
+}
+
+#contact table.contact .address {
+	color: #ccc;
+	font-family: monospace;
+}
+
 #footer {
 	font-size: 14px;
 	line-height: 20px;
 	margin-top: 100px;
-	text-align: center;	
+	text-align: center;
+	margin-bottom: 20px;	
 }
