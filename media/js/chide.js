@@ -5,16 +5,26 @@ Router = Backbone.Router.extend({
 		'!/contact/': 'contact'
 	},
 	
+	load: function(url) {
+		var div = $('<div><\/div>');
+	
+		div.load(url, function() {
+			$('#content')
+				.empty()
+				.append(div);
+		});
+	},
+	
 	frontpage: function() {
-		$('#content').load('/frontpage/');
+		this.load('/frontpage/');
 	},
 	
 	about: function() {
-		$('#content').load('/about/');
+		this.load('/about/');
 	},
 	
 	contact: function() {
-		$('#content').load('/contact/');
+		this.load('/contact/');
 	}
 });
 
