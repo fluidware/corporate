@@ -1,4 +1,4 @@
-Router = Backbone.Router.extend({
+Router = Backbone.Controller.extend({
 	routes: {
 		'!/': 'frontpage',
 		'!/about/': 'about',
