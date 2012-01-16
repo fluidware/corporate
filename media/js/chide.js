@@ -1,7 +1,6 @@
-Router = Backbone.Controller.extend({
+Router = Backbone.Router.extend({
 	routes: {
 		'!/': 'frontpage',
-		'!/about/': 'about',
 		'!/contact/': 'contact'
 	},
 	
@@ -17,10 +16,6 @@ Router = Backbone.Controller.extend({
 	
 	frontpage: function() {
 		this.load('/frontpage/');
-	},
-	
-	about: function() {
-		this.load('/about/');
 	},
 	
 	contact: function() {
